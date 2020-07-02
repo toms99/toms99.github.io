@@ -85,52 +85,52 @@ for (i=0;   //------> 1 asignación: 1T
 ## Análisis asintótico.
 Dada una función obtenida mediante conteo de instrucciones, el análisis asintótico se enfoca en encontrar el término que determina el crecimiento de la función.
 
-> $$\Tau(n) = 2n^3+\ 3n^2 +\ log(n) +\ 333$$
+> $$\T(n) = 2n^3+\ 3n^2 +\ log(n) +\ 333$$
 *El término más importante es el que indica el grado de la función y los demás son despreciables.*
 
 Por lo tanto, según el análisis asintótico:
-> $$\Tau(n) = n^3$$
+> $$\T(n) = n^3$$
 
 Este análisis se puede realizar enfocándose en:
 - Peor caso (suele ser suficiente).
 - Caso promedio.
 - Mejor caso.
 
-### Big $$\Omicron$$ (omicron)
+### Big $$O$$ (omicron)
 - Encontrar el peor caso.
 - Encuentra la cota superior.
 
 ![enter image description here](https://cdn.kastatic.org/ka-perseus-images/501211c02f4c6765f60f23842450e1151cfd9c89.png)
->Si el peor caso es $\kappa \ f(n)$, se comporta linealmente, cualquier caso va a ser igual o mejor que este. Por debajo de esta línea se encuentran todos los casos posibles representados por la función *running time.*
+>Si el peor caso es $$\kappa \ f(n)$$, se comporta linealmente, cualquier caso va a ser igual o mejor que este. Por debajo de esta línea se encuentran todos los casos posibles representados por la función *running time.*
 
-### Big $\Theta$ (theta)
+### Big $$\Theta$$ (theta)
 - Encontrar la cota superior e inferior a partir de cierta cota.
 
 ![Big theta graph description](https://cdn.kastatic.org/ka-perseus-images/c14a48f24cae3fd563cb3627ee2a74f56c0bcef6.png)
-> $\kappa_1n$ corresponde a la cota inferior y $\kappa_2n$ a la  superior, mientras que la función *running time* es el espacio  para los posibles comportamientos.
+> $$\kappa_1n$$ corresponde a la cota inferior y $$\kappa_2n$$ a la  superior, mientras que la función *running time* es el espacio  para los posibles comportamientos.
 
-### Big $\Omega$ (omega).
+### Big $$\Omega$$ (omega).
 - Encontrar el límite inferior.
 
 ![big omega graph description](https://cdn.kastatic.org/ka-perseus-images/c02e6916d15bacae7a936381af8c6e5a0068f4fd.png)
-> $\kappa \ f(n)$ corresponde a la cota inferior y la función *running time* sería los posibles casos.
+> $$\kappa \ f(n)$$ corresponde a la cota inferior y la función *running time* sería los posibles casos.
 
 ### Órdenes de crecimiento comunes.
-- Constante $\ k$.
-- Logarítmica $\ Log(n)$ // ---> *Estos logaritmos son base 2 por convención computación.*
-- Lineal $\ n$.
-- Lineal logaritmica $\ nLog(n)$.
-- Cuadrática $\ n^2$.
-- Cúbica $\ n^3$.
-- Exponencial $\ k^n$.
-- Factorial $\ n!$ .
+- Constante $$\ k$$.
+- Logarítmica $$\ Log(n)$$ // ---> *Estos logaritmos son base 2 por convención computación.*
+- Lineal $$\ n$$.
+- Lineal logaritmica $$\ nLog(n)$$.
+- Cuadrática $$\ n^2$$.
+- Cúbica $$\ n^3$$.
+- Exponencial $$\ k^n$$.
+- Factorial $$\ n!$$ .
 
 ![Gráficas de las complejidades Big O](https://res.cloudinary.com/practicaldev/image/fetch/s--NR3M1nw8--/c_limit,f_auto,fl_progressive,q_auto,w_880/https://thepracticaldev.s3.amazonaws.com/i/z4bbf8o1ly77wmkjdgge.png)
 
 ## Algoritmos de búsqueda.
 
 ### Linear search (búsqueda secuencial).
-- **Complejidad $\Omicron(n)$ (en el peor de los casos se hará un número de comparaciones igual al tamaño del elemento)**.
+- **Complejidad $$O(n)$$ (en el peor de los casos se hará un número de comparaciones igual al tamaño del elemento)**.
 - Es el algoritmo de búsqueda más sencillo.
 - Busca un elemento en una lista o un vector.
 
@@ -146,12 +146,12 @@ Este análisis se puede realizar enfocándose en:
 ![Gif sobre binary search vs linear search](https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif)
 
 ### Interpolation search (interpolación).
-- **Complejidad $\Omicron(n)$**.
+- **Complejidad $$O(n)$$**.
 - Modificación de binary search.
 - El código es prácticamente el mismo, a excepción del cálculo del elemento central.
 - En cada etapa, trata de calcular dónde está el elemento central (con un pivote) usando la fórmula:
 
-$\ middle = low + \frac{ (buscado - a[low]) (high - low)}{a[high] - a[low]}$
+$$\ middle = low + \frac{ (buscado - a[low]) (high - low)}{a[high] - a[low]}$$
 
 En [este visualizador](http://lti.cs.vt.edu/OpenDSA/AV/Development/interpolationSearchAV.html) se puede observar el desarrollo del algoritmo.
 
@@ -160,7 +160,7 @@ En [este visualizador](http://lti.cs.vt.edu/OpenDSA/AV/Development/interpolation
 - Provee una forma de búsqueda rápida.
 - Determina una función de *Hash* que permite buscar y encontrar un *índice* para una *llave*.
 
-$\ f(llave)$ *//----->* *índice único*
+$$\ f(llave)$$ *//----->* *índice único*
 - **Se puede aplicar en encriptación** (SHA -256 o MD5).
 - La forma más básica de un Hash es la función identidad.
 - La función ideal es inyectiva y biyectiva, pero es muy difícil de hallar.
