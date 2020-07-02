@@ -1,9 +1,9 @@
 # Website details
-name: Name
-description: Description
-email: email@site.com
-author: author
-lang: en
+name: Algoritmos y Estructuras de Datos II.
+description: Mi cuaderno del curso.
+email: tomas.seguram@gmail.com
+author: Tomás Segura
+lang: es
 locale: en_US
 
 # Jekyll
