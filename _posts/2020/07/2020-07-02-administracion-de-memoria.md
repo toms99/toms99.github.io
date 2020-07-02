@@ -144,12 +144,12 @@ Con el fin de resolver esta situación, se introdujo **static relocation**. Esta
 
 - En Java el Heap es manejado de manera transparente y por el garbage collector.
 
-Stack                       | Heap
---------------------------- | -------------------------------------------
-Temporal.                   | Lifetime: control total del programador.
-Hace copias locales.        | Se tiene control sobre el tamaño de las variables.
-El tiempo de vida es corto. | Requiere más trabajo.
-Comunicación restringida.   | Más pulgas. 
+|Stack                       | Heap
+|--------------------------- | ----------------------------------------------------|
+|Temporal.                   | Lifetime: control total del programador.|
+|Hace copias locales.        | Se tiene control sobre el tamaño de las variables.|
+|El tiempo de vida es corto. | Requiere más trabajo.|
+|Comunicación restringida.   | Más pulgas. |
 
 ## Pointer.
 
