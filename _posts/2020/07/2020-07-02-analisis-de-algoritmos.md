@@ -1,5 +1,5 @@
 ---
-layout: Tema_02
+layout: article
 title: Análisis de algoritmos
 date: 2020-07-02 15:33:00+0200
 coverPhoto: https://ozgrozer.github.io/dasper/contents/images/2016/07/jekyll.jpg
