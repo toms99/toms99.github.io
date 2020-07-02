@@ -5,7 +5,7 @@ date: 2020-07-02 15:33:00+0200
 coverPhoto: https://elingenieroenaccion.files.wordpress.com/2018/09/que-es-un-algoritmo-featured.png?w=750
 ---
 
-![Esquema sobre la definición de algoritmo y análisis de algoritmos.](https://lh3.googleusercontent.com/VXS7fOdgp9THpeaZytJbuYI_mnxGEOrPIO1RkkqD9aytf6hIy-pegSATfX73xOS6-54TzNXPpMUQoD5kc2SOa6KFILx7oJXNvjszbCMBmHWxyNI1zFeyEHepQncij410wl0WYKtbNQxYaVbwNSCF2FJ-W9EXrXF-R99E2zVK93-08BFc1Wt5aBC4TEa17g35AH4wMhRnccNhnCo99QXUsGReLPXp6NiXjv5oCm2nNW8b1HM_Fjt-IlzhoPWy2Bl5Gag51pU0BSLkibrsvFoLfleHPb-ObGqxu_SIXqLvVNEMWbfadmddQlZjJNLTOJbBAADc2KgFaoaxA21JAPoLSYENphF_GMz8guf04omgCOyvNSQTfjoXp3LhC5WMZ2AUSErKaKz58vECGZD5dt_JC-Dvsdpr0HQQSBgj1pmAi1SeJsa2Z8NyYxhI9hceXxB_aLywL9Ew9WtUj0YJmxSkXOLAYkYXGCQTeQ6BpJHVmgJfk1jtpZ4lY0e5KD8_ZIt_mZ8dXu1HW2wpBu5qfcqOz_7HyRmnfSFf_RrIsSpiEkewMjfp3AuCTfo7_U5rhVkNLe4VJQyrUnLfQcbmeVFXZuwRbypfAWAtCrsFTsoQSfJzbdkHxCFHqi1SUz7K6V1NeuUhV3uaU9BZjbEOlj5BzBOOufCa5Cr57zpm-1YeKRNDGBH3oZS3S--zE-J8=w1147-h632-no?authuser=0)
+![Esquema sobre la definición de algoritmo y análisis de algoritmos.](https://user-images.githubusercontent.com/38998436/86414650-cf1feb00-bc81-11ea-9181-55a0d77427ad.png)
 
 [Aquí](https://www.goconqr.com/en/mindmap/23404830/ALGORITMO) se puede acceder a una vista dinámica del esquema.
 
