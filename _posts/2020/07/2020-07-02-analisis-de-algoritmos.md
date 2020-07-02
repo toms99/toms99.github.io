@@ -85,11 +85,11 @@ for (i=0;   //------> 1 asignación: 1T
 ## Análisis asintótico.
 Dada una función obtenida mediante conteo de instrucciones, el análisis asintótico se enfoca en encontrar el término que determina el crecimiento de la función.
 
-> $$\T(n) = 2n^3+\ 3n^2 +\ log(n) +\ 333$$
+> $$T(n) = 2n^3+\ 3n^2 +\ log(n) +\ 333$$
 *El término más importante es el que indica el grado de la función y los demás son despreciables.*
 
 Por lo tanto, según el análisis asintótico:
-> $$\T(n) = n^3$$
+> $$T(n) = n^3$$
 
 Este análisis se puede realizar enfocándose en:
 - Peor caso (suele ser suficiente).
