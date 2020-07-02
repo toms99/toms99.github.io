@@ -85,18 +85,18 @@ for (i=0;   //------> 1 asignación: 1T
 ## Análisis asintótico.
 Dada una función obtenida mediante conteo de instrucciones, el análisis asintótico se enfoca en encontrar el término que determina el crecimiento de la función.
 
-> $\Tau(n) = 2n^3+\ 3n^2 +\ log(n) +\ 333$
+> $$\Tau(n) = 2n^3+\ 3n^2 +\ log(n) +\ 333$$
 *El término más importante es el que indica el grado de la función y los demás son despreciables.*
 
 Por lo tanto, según el análisis asintótico:
-> $\Tau(n) = n^3$
+> $$\Tau(n) = n^3$$
 
 Este análisis se puede realizar enfocándose en:
 - Peor caso (suele ser suficiente).
 - Caso promedio.
 - Mejor caso.
 
-### Big $\Omicron$ (omicron)
+### Big $$\Omicron$$ (omicron)
 - Encontrar el peor caso.
 - Encuentra la cota superior.
 
