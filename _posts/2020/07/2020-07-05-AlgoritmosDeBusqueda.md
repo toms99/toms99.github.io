@@ -195,5 +195,5 @@ Por lo tanto, los valores quedarían así:
 
 El objetivo que se obtenga el $$f(n)$$ más bajo posible. Para ver una expliación sobre un proceso completo de A* recomiendo [este](https://www.youtube.com/watch?v=PzEWHH2v3TE) video. 
 
-{% youtube https://www.youtube.com/watch?v=PzEWHH2v3TE %}
+{% include youtube_embed.html id="PzEWHH2v3TE" %}
 
