@@ -69,7 +69,8 @@ El procedimiento se caracteriza por:
 
 Existen diferentes algoritmos para implementar el pathfinding. A continuación se muestran algunos.
 
-```mermaid
+<div class="mermaid">
+
 
 graph LR 
 id00[IMPLEMENTACIONES]
@@ -111,7 +112,9 @@ id13[A*]
 
 id11 --> id12
 id13 --> id12
-```
+
+</div>
+
 
 Los algoritmos Better Heuristic y A* son un poco más complicados e importantes. Por esto, se desarrollan un poco más.
 
@@ -161,7 +164,8 @@ Aplicar este algoritmo implica conocer los principales cálculos, como lo indica
 **Por ejemplo:**
 En el siguiente grafo, **el nodo origen sería A** y el **nodo destino es D**. 
 
-```mermaid
+<div class="mermaid">
+
 graph TB 
 A((A)) -- 5 --> B((B))
 A -- 4 --> C((C))
@@ -170,7 +174,8 @@ C -- 3 --> G((G))
 G -- 2 --> D
 C -- 9 --> F((F))
 F -- 14 --> D
-```
+</div>
+
 
 Entonces, algunos valores $$g(n)$$ serían:
 - *Del nodo C*: $$g(n) = 4$$.
