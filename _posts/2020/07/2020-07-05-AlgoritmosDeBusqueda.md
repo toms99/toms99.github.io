@@ -70,49 +70,46 @@ El procedimiento se caracteriza por:
 Existen diferentes algoritmos para implementar el pathfinding. A continuación se muestran algunos.
 
 <div class="mermaid">
+graph LR;
+id00[IMPLEMENTACIONES];
+id00 --> id01;
+id00 --> id03;
+id00 --> id05;
+id00 --> id07;
+id00 --> id11;
+id00 --> id13;
 
+id01[Sin obstáculos.];
+id02[Mover los ejes de posición hasta igualar x,y al buscado.];
 
-graph LR 
-id00[IMPLEMENTACIONES]
-id00 --> id01
-id00 --> id03
-id00 --> id05
-id00 --> id07
-id00 --> id11
-id00 --> id13
+id01 --> id02;
 
-id01[Sin obstáculos.]
-id02[Mover los ejes de posición hasta igualar x,y al buscado.]
+id03[Random Bouncing.];
+id04[Fuerza bruta.];
 
-id01 --> id02
+id03 --> id04;
 
-id03[Random Bouncing.]
-id04[Fuerza bruta.]
+id05[Object Tracing.];
+id06[Rodear obstáculos.];
 
-id03 --> id04
+id05 --> id06;
 
-id05[Object Tracing.]
-id06[Rodear obstáculos.]
+id07[Breadth-first Search];
+id08[Onda expansiva para detectar celdas alrededor.];
+id09[Ineficiente.];
+id10[Prueba con los nodos adyacentes y guarda las posiciones de los obstáculos hasta llegar al objetivo.];
 
-id05 --> id06
+id07 --> id08;
+id07 --> id09;
+id07 --> id10;
 
-id07[Breadth-first Search]
-id08[Onda expansiva para detectar celdas alrededor.]
-id09[Ineficiente.]
-id10[Prueba con los nodos adyacentes y guarda las posiciones de los obstáculos hasta llegar al objetivo.]
+id11[Better heuristic pathfinding];
+id12[Explicación abajo.];
 
-id07 --> id08
-id07 --> id09
-id07 --> id10
+id13[A*];
 
-id11[Better heuristic pathfinding]
-id12[Explicación abajo.]
-
-id13[A*] 
-
-id11 --> id12
-id13 --> id12
-
+id11 --> id12;
+id13 --> id12;
 </div>
 
 
@@ -166,14 +163,14 @@ En el siguiente grafo, **el nodo origen sería A** y el **nodo destino es D**.
 
 <div class="mermaid">
 
-graph TB 
-A((A)) -- 5 --> B((B))
-A -- 4 --> C((C))
-B -- 9 --> D((D))
-C -- 3 --> G((G))
-G -- 2 --> D
-C -- 9 --> F((F))
-F -- 14 --> D
+graph TB;
+A((A)) -- 5 --> B((B));
+A -- 4 --> C((C));
+B -- 9 --> D((D));
+C -- 3 --> G((G));
+G -- 2 --> D;
+C -- 9 --> F((F));
+F -- 14 --> D;
 </div>
 
 
