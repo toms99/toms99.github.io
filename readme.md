@@ -1,8 +1,8 @@
-# Dasper
-[Dasper](https://github.com/ozgrozer/dasper) is a [Jekyll](https://jekyllrb.com/) theme inspired by [Ghost](https://ghost.org/)'s default theme [Casper](https://demo.ghost.io/) and also [Jasper](https://biomadeira.github.io/jasper/) & [Kasper](http://rosario.io/).
+# Mi cuaderno de Datos.
+Esta es mi GitHub page que sirve el repositorio o blog de mis apuntes en el curso Estructuras y Algoritmos de Datos II.
 
-## Live Demo
-- [ozgrozer.github.io/dasper](https://ozgrozer.github.io/dasper)
+## Dasper theme
+[Dasper](https://github.com/ozgrozer/dasper) is a [Jekyll](https://jekyllrb.com/) theme.
 
 ## Includes
 - Pagination
@@ -14,12 +14,8 @@
 - Addthis sharing buttons
 - Disqus comments
 - Google Analytics tracking
-
-## Usage
-1. Fork the repo.
-2. Change repo name from "dasper" to "username.github.io".
-3. Update your informations in the `_config.yml` file.
-4. You're ready to go on https://username.github.io/.
+- [Embedded](http://www.beingy.net/blog/embed-youtube-video-in-jekyll/#:~:text=I%20found%20one%20particularly%20easy,to%20embed%20the%20Youtube%20video.) YouTube videos.
+- KaTex [support](http://www.iangoodfellow.com/blog/jekyll/markdown/tex/2016/11/07/latex-in-markdown.html).
 
 ## Copyright & License
 Copyright (c) 2016 - Released under the MIT License.
