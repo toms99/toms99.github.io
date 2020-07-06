@@ -16,11 +16,14 @@ paginateLabel: page
 paginate_path: "page/:num"
 permalink: /:categories/:year/:month/:day/:title
 baseurl: https://toms99.github.io/
+gems: [jekyll-mermaid]
 
 # Includes
 addthisId: ""
 disqusUsername: ""
 googleAnalyticsId: ""
+mermaid:
+  src: '/assets/js/mermaid.min.js'
 
 # Search engine verifications
 bing: ""
