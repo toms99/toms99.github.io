@@ -148,10 +148,11 @@ El proceso para entender este algoritmo lo explica [Computerphile]([https://www.
 
 A modo de resumen, la diferencia principal entre el algoritmo de Dijkstra y A* es:
 
-|Dijkstra          |A*                      |
-|------------------|------------------------|
-|Es **expansivo** (busca todas las rutas posibles).|Es **selectivo** (escoge gradualmente las rutas más efectivas).|
-|![gif del algoritmo de Dijkstra](https://reactjsexample.com/content/images/2019/10/dijkstra.gif)|![Gif del algoritmo A*](https://camo.githubusercontent.com/8ce41f7333960e48f5d1e5b4f1a2a72908288231/687474703a2f2f672e7265636f726469742e636f2f51784d44503679577a422e676966)|
+**Dijkstra**: Es **expansivo** (busca todas las rutas posibles).
+![gif del algoritmo de Dijkstra](https://reactjsexample.com/content/images/2019/10/dijkstra.gif)
+
+**A star**: Es **selectivo** (escoge gradualmente las rutas más efectivas).
+![Gif del algoritmo A*](https://camo.githubusercontent.com/8ce41f7333960e48f5d1e5b4f1a2a72908288231/687474703a2f2f672e7265636f726469742e636f2f51784d44503679577a422e676966)
 
 Aplicar este algoritmo implica conocer los principales cálculos, como lo indica [Graph Everywhere]([https://www.grapheverywhere.com/algoritmo-a/](https://www.grapheverywhere.com/algoritmo-a/)), donde también se puede encontrar un ejemplo de apliación y un poco de historia:
 
