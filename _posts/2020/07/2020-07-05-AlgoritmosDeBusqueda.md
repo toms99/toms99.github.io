@@ -7,7 +7,7 @@ coverPhoto: https://lh3.googleusercontent.com/proxy/CCWT6HwNdt6lPr_PHenr9e8DV4E0
 ---
 
 ### Linear search (búsqueda secuencial).
-- **Complejidad $$\Omicron(n)$$ (en el peor de los casos se hará un número de comparaciones igual al tamaño del elemento)**.
+- **Complejidad $$O(n)$$ (en el peor de los casos se hará un número de comparaciones igual al tamaño del elemento)**.
 - Es el algoritmo de búsqueda más sencillo.
 - Busca un elemento en una lista o un vector.
 
@@ -23,7 +23,7 @@ coverPhoto: https://lh3.googleusercontent.com/proxy/CCWT6HwNdt6lPr_PHenr9e8DV4E0
 ![Gif sobre binary search vs linear search](https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif)
 
 ### Interpolation search (interpolación).
-- **Complejidad $$\Omicron(n)$$**.
+- **Complejidad $$O(n)$$**.
 - Modificación de binary search.
 - El código es prácticamente el mismo, a excepción del cálculo del elemento central.
 - En cada etapa, trata de calcular dónde está el elemento central (con un pivote) usando la fórmula:
@@ -69,49 +69,7 @@ El procedimiento se caracteriza por:
 
 Existen diferentes algoritmos para implementar el pathfinding. A continuación se muestran algunos.
 
-{% mermaid %}
-graph LR;
-id00[IMPLEMENTACIONES];
-id00 --> id01;
-id00 --> id03;
-id00 --> id05;
-id00 --> id07;
-id00 --> id11;
-id00 --> id13;
-
-id01[Sin obstáculos.];
-id02[Mover los ejes de posición hasta igualar x,y al buscado.];
-
-id01 --> id02;
-
-id03[Random Bouncing.];
-id04[Fuerza bruta.];
-
-id03 --> id04;
-
-id05[Object Tracing.];
-id06[Rodear obstáculos.];
-
-id05 --> id06;
-
-id07[Breadth-first Search];
-id08[Onda expansiva para detectar celdas alrededor.];
-id09[Ineficiente.];
-id10[Prueba con los nodos adyacentes y guarda las posiciones de los obstáculos hasta llegar al objetivo.];
-
-id07 --> id08;
-id07 --> id09;
-id07 --> id10;
-
-id11[Better heuristic pathfinding];
-id12[Explicación abajo.];
-
-id13[A*];
-
-id11 --> id12;
-id13 --> id12;
-{% endmermaid %}
-
+![esquema mermaid sobre algunas implementaciones de pathfinding](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggTFIgXG5pZDAwW0lNUExFTUVOVEFDSU9ORVNdXG5pZDAwIC0tPiBpZDAxXG5pZDAwIC0tPiBpZDAzXG5pZDAwIC0tPiBpZDA1XG5pZDAwIC0tPiBpZDA3XG5pZDAwIC0tPiBpZDExXG5pZDAwIC0tPiBpZDEzXG5cbmlkMDFbU2luIG9ic3TDoWN1bG9zLl1cbmlkMDJbTW92ZXIgbG9zIGVqZXMgZGUgcG9zaWNpw7NuIGhhc3RhIGlndWFsYXIgeCx5IGFsIGJ1c2NhZG8uXVxuXG5pZDAxIC0tPiBpZDAyXG5cbmlkMDNbUmFuZG9tIEJvdW5jaW5nLl1cbmlkMDRbRnVlcnphIGJydXRhLl1cblxuaWQwMyAtLT4gaWQwNFxuXG5pZDA1W09iamVjdCBUcmFjaW5nLl1cbmlkMDZbUm9kZWFyIG9ic3TDoWN1bG9zLl1cblxuaWQwNSAtLT4gaWQwNlxuXG5pZDA3W0JyZWFkdGgtZmlyc3QgU2VhcmNoXVxuaWQwOFtPbmRhIGV4cGFuc2l2YSBwYXJhIGRldGVjdGFyIGNlbGRhcyBhbHJlZGVkb3IuXVxuaWQwOVtJbmVmaWNpZW50ZS5dXG5pZDEwW1BydWViYSBjb24gbG9zIG5vZG9zIGFkeWFjZW50ZXMgeSBndWFyZGEgbGFzIHBvc2ljaW9uZXMgZGUgbG9zIG9ic3TDoWN1bG9zIGhhc3RhIGxsZWdhciBhbCBvYmpldGl2by5dXG5cbmlkMDcgLS0-IGlkMDhcbmlkMDcgLS0-IGlkMDlcbmlkMDcgLS0-IGlkMTBcblxuaWQxMVtCZXR0ZXIgaGV1cmlzdGljIHBhdGhmaW5kaW5nXVxuaWQxMltFeHBsaWNhY2nDs24gYWJham8uXVxuXG5pZDEzW0EqXSBcblxuaWQxMSAtLT4gaWQxMlxuaWQxMyAtLT4gaWQxMiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
 Los algoritmos Better Heuristic y A* son un poco más complicados e importantes. Por esto, se desarrollan un poco más.
 
@@ -161,17 +119,7 @@ Aplicar este algoritmo implica conocer los principales cálculos, como lo indica
 **Por ejemplo:**
 En el siguiente grafo, **el nodo origen sería A** y el **nodo destino es D**. 
 
-
-{% mermaid %}
-graph TB;
-A((A)) -- 5 --> B((B));
-A -- 4 --> C((C));
-B -- 9 --> D((D));
-C -- 3 --> G((G));
-G -- 2 --> D;
-C -- 9 --> F((F));
-F -- 14 --> D;
-{% endmermaid %}
+![esquema mermaid sobre un grafo ejemplo](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVEIgXG5BKChBKSkgLS0gNSAtLT4gQigoQikpXG5BIC0tIDQgLS0-IEMoKEMpKVxuQiAtLSA5IC0tPiBEKChEKSlcbkMgLS0gMyAtLT4gRygoRykpXG5HIC0tIDIgLS0-IERcbkMgLS0gOSAtLT4gRigoRikpXG5GIC0tIDE0IC0tPiBEIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
 
 Entonces, algunos valores $$g(n)$$ serían:
 - *Del nodo C*: $$g(n) = 4$$.
