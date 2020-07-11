@@ -158,3 +158,6 @@ Consiste en un tipo de dato cuya principal función es *evitar errores en runtim
 - *Desreferenciador* `*` : retorna el valor al que apunta.
 
 Un puntero sin inicializar tiene un valor conocido como `BAD VALUE`. Por lo tanto, se recomienda inicializar un puntero de la forma: `char *a = nullptr`.
+
+![Mountastic  footer](https://user-images.githubusercontent.com/38998436/87217793-5fa59d80-c30a-11ea-94e7-81be3d541319.png)
+

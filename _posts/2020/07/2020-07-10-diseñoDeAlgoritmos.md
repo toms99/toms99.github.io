@@ -250,3 +250,6 @@ Ejemplos de algoritmos de este tipo:
 - Load Balancing.
 - Minimum spanning trees.
 - Shortest paths.
+
+![Mountastic  footer](https://user-images.githubusercontent.com/38998436/87217793-5fa59d80-c30a-11ea-94e7-81be3d541319.png)
+

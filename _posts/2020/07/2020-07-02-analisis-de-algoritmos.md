@@ -125,4 +125,7 @@ Este análisis se puede realizar enfocándose en:
 
 ![Gráficas de las complejidades Big O](https://res.cloudinary.com/practicaldev/image/fetch/s--NR3M1nw8--/c_limit,f_auto,fl_progressive,q_auto,w_880/https://thepracticaldev.s3.amazonaws.com/i/z4bbf8o1ly77wmkjdgge.png)
 
+![Mountastic  footer](https://user-images.githubusercontent.com/38998436/87217793-5fa59d80-c30a-11ea-94e7-81be3d541319.png)
+
+
 
