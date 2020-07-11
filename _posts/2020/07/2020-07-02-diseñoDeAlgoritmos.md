@@ -1,4 +1,12 @@
-﻿# Diseño de Algoritmos.
+---
+layout: article
+title: Diseño de algoritmos
+date: 2020-07-10 
+author: Tomás Segura
+coverPhoto: https://humanoriginproject.com/wp-content/uploads/2018/12/human-chromosome-function.jpg
+---
+
+
 El diseño consiste en el planeamiento de un producto cuyo fin es es mostrar la apariencia y funciones de un objeto antes de su construcción.
 
 ![Think before you act](https://www.accuform.com/files/damObject/Image/huge/MGNF921.jpg)
@@ -13,28 +21,7 @@ El proceso del diseño de algoritmos lleva algunos pasos significantes:
 
 Ahora bien, este proceso de formulación de algoritmos se complementa de algunas **técnicas de diseño** particulares. Familiarizarse con ellas lleva su tiempo pero con la experiencia se vuelve más sencillo solucionar problemas. Algunas categorías de técnicas de diseño son:
 
-```mermaid
-graph LR 
-id00[TÉCNICAS DE DISEÑO]
-id00 --> id01
-id00 --> id03
-id00 --> id05
-id00 --> id07
-id00 --> id11
-
-id01[Divide y vencerás.]
-id03[Backtracking.]
-id05[Programación dinámica.]
-
-id07[Algoritmos heurísticos.]
-id08[Algoritmos genéticos.]
-id09[Algoritmos Voraces.]
-
-id07 --> id08
-id07 --> id09
-
-id11[Algoritmos probabilísticos.]
-```
+![esquema resumen de diseño de algoritmos](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggTFIgXG5pZDAwW1TDiUNOSUNBUyBERSBESVNFw5FPXVxuaWQwMCAtLT4gaWQwMVxuaWQwMCAtLT4gaWQwM1xuaWQwMCAtLT4gaWQwNVxuaWQwMCAtLT4gaWQwN1xuaWQwMCAtLT4gaWQxMVxuXG5pZDAxW0RpdmlkZSB5IHZlbmNlcsOhcy5dXG5pZDAzW0JhY2t0cmFja2luZy5dXG5pZDA1W1Byb2dyYW1hY2nDs24gZGluw6FtaWNhLl1cblxuaWQwN1tBbGdvcml0bW9zIGhldXLDrXN0aWNvcy5dXG5pZDA4W0FsZ29yaXRtb3MgZ2Vuw6l0aWNvcy5dXG5pZDA5W0FsZ29yaXRtb3MgVm9yYWNlcy5dXG5cbmlkMDcgLS0-IGlkMDhcbmlkMDcgLS0-IGlkMDlcblxuaWQxMVtBbGdvcml0bW9zIHByb2JhYmlsw61zdGljb3MuXSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
 ## Divide y vencerás (Divide and Conquer).
 
@@ -96,7 +83,7 @@ Algunos problemas clásicos del backtracking son:
 
 Debido a que este problema se amplía mucho al desarrollarlo, recomiendo ver el siguiente video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0DeznFqrgAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube_embed.html id="0DeznFqrgAI" %}
 
 > [Aquí](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/) se puede acceder al código y la explicación.
 
@@ -186,7 +173,7 @@ Representa una exploración aleatoria usando información histórica de las gene
 
 En este video se muestra un excelente ejemplo de los algoritmos genéticos. Donde se crean generaciones de carros con ciertas características. Estas van evolucionando usando "the fittest car" como base. Este término "the fittest" se utiliza para hacer referencia al individuo de mayor éxito de cierta generación.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/d92aCvexE1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube_embed.html id="d92aCvexE1U" %}
 
 **El proceso de los algoritmos genéticos se puede resumir en**:
 1. **Generar una población base**. Puramente aleatoria.
