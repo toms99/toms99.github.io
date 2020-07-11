@@ -3,7 +3,7 @@ layout: article
 title: Algoritmos de búsqueda
 date: 2020-07-05 
 author: Tomás Segura
-coverPhoto: https://lh3.googleusercontent.com/proxy/CCWT6HwNdt6lPr_PHenr9e8DV4E0ip6FB6whRkGJn4R55nZsqkRxL5E3T50_ShCW51t5UEQh5_-BMMmRUC0DtxXYI-KUU_gPg_nB0my1KxihBv9X9DABqN2CY_D38_5ljm-tF5g
+coverPhoto: https://raw.githubusercontent.com/antonpantev/pathfinding/master/PreviewImages/ScreenShot.png
 ---
 
 ### Linear search (búsqueda secuencial).
