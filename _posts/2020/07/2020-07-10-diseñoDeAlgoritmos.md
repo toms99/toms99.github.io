@@ -13,11 +13,11 @@ El diseño consiste en el planeamiento de un producto cuyo fin es es mostrar la 
 
 El proceso del diseño de algoritmos lleva algunos pasos significantes:
 
-:bulb: Formular el problema con suficiente precisión matemática.
-:bulb: Concretar la pregunta y comenzar a pensar en algoritmos para solucionar.
-:bulb: Diseñar el algoritmo para el problema.
-:bulb: Analizar el algoritmo para verificar si es correcto.
-:bulb: Evaluar la eficiencia del resultado.
+- Formular el problema con suficiente precisión matemática.
+- Concretar la pregunta y comenzar a pensar en algoritmos para solucionar.
+- Diseñar el algoritmo para el problema.
+- Analizar el algoritmo para verificar si es correcto.
+- Evaluar la eficiencia del resultado.
 
 Ahora bien, este proceso de formulación de algoritmos se complementa de algunas **técnicas de diseño** particulares. Familiarizarse con ellas lleva su tiempo pero con la experiencia se vuelve más sencillo solucionar problemas. Algunas categorías de técnicas de diseño son:
 
@@ -156,8 +156,8 @@ Es una técnica robusta y **puede tratar con éxito una gran variedad de problem
 
 En la naturaleza todo el proceso de evolución se hace de forma natural. Aplicar esta idea a la solución de problemas conlleva algunas implicaciones en la población generada:
 
-:bulb: **Tamaño**.
-:bulb: **Diversidad**.
+- **Tamaño**.
+- **Diversidad**.
 
 Estos dos factores son fundamentales ya que permiten la correcta generación de las mutaciones entre generaciones.
 
