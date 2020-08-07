@@ -1,4 +1,10 @@
-﻿# Estructuras de almacenamiento externo.
+---
+layout: article
+title: Estructuras de almacenamiento.
+date: 2020-07-20 
+author: Tomás Segura
+coverPhoto: https://images.assetsdelivery.com/compings_v2/muslumstock/muslumstock1811/muslumstock181124895.jpg
+---
 
 En una computadora se llegan a almacenar hasta millones de archivos por lo que las estructuras para almacenarlos deben ser muy eficientes. Por este motivo es que es un tema muy estudiado.
 
@@ -169,3 +175,5 @@ Un archivo es un mecanismo de abstracción. Provee un camino para guardar inform
 - Random Access File
 	- Puedo leer los bytes o records de un archivo en cualquier orden.
 	- Acceso a los récords por llaves.
+
+![Mountastic  footer](https://user-images.githubusercontent.com/38998436/87217793-5fa59d80-c30a-11ea-94e7-81be3d541319.png)
