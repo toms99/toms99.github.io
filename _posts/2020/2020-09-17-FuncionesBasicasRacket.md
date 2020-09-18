@@ -2,7 +2,7 @@
 layout: article
 title: Funciones básicas en Racket.
 date: 2020-09-17 15:33:00+0200
-coverPhoto: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_121997957_stock-vector-abacus-for-mental-arithmetic-abacus-children-s-education-early-expansion-flat-vector-illustration.html&psig=AOvVaw0FvTQBYbxUHv36rjtf8xJV&ust=1600475358187000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi6_7658esCFQAAAAAdAAAAABAD
+coverPhoto: https://superawesomevectors.com/wp-content/uploads/2017/07/abacus-free-flat-vector-icon-800x566.jpg
 ---
 
 Este es solamente un resumen rápido sobre las funciones que se pueden encontrar en Racket y algunos ejemplos para saber cómo se utilizan.
