@@ -13,7 +13,7 @@ Este es solamente un resumen rápido sobre las funciones que se pueden encontrar
 - Multiplicación.
 - División.
 
-Lo importante es adaptarse a la nomenclatura. Por ejemplo, para realizar una operación como  $7 + 3 \cdot (1 + \frac{5}{2})$ se escribe así:
+Lo importante es adaptarse a la nomenclatura. Por ejemplo, para realizar una operación como  $$7 + 3 \cdot (1 + \frac{5}{2})$$ se escribe así:
 ```python
 > (+ 7 (* 3 (+ 1 (/ 5 2))))
 ```
@@ -65,11 +65,11 @@ La función **`cond`** permite seleccionar una opción de múltiples alternativa
 		( condicionN
 			funcionN))
 ```
-También acepta `else`como condición final.
+También acepta `else` como condición final.
 
 La función **`define`** puede utilizarse de varias maneras:
-- **Crear variables:**  `> (define nombreVariable valorVariable)`
-- **Definir funciones:** `> (define nombreFuncion arg1 arg2 ... argN)`
+- **Crear variables:**  `(define nombreVariable valorVariable)`
+- **Definir funciones:** `(define nombreFuncion arg1 arg2 ... argN)`
 
 Se puede utilizar junto a `cond` para crear funciones complejas.
 
