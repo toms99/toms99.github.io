@@ -2,7 +2,7 @@
 layout: article
 title: Procesos en Racket.
 date: 2020-09-19 15:33:00+0200
-coverPhoto: https://superawesomevectors.com/wp-content/uploads/2017/07/abacus-free-flat-vector-icon-800x566.jpg
+coverPhoto: https://uploads-ssl.webflow.com/5d19bb502daf2fbde3383a21/5e2af13c47a6a24a8f608ac5_what-is-business-process.jpg
 ---
 
 En el presente artículo se presenta cómo es posible por medio de Scheme escribir procesos que realicen computaciones numéricas. **En especial fórmulas recursivas**, algoritmos que se definen en términos de sí mismos.
