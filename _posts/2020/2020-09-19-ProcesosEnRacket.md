@@ -32,8 +32,7 @@ $$2^5 = 2 \cdot (2^4) \\\
 2^5 = 2 \cdot (2 \cdot (2 \cdot ( 4 )))  \\\
 2^5 = 2 \cdot (2 \cdot (8))  \\\
 2^5 = 2 \cdot (16)  \\\
-2^5 = 32 $$
-
+2^5 = 32$$
 En la representación anterior se muestra muy bien cómo la recursividad de pila hace su trabajo al llamarse a sí misma hasta que encuentra un caso base (exponente 0). Después, sólo retorna el resultado en cada llamada.
 
 A continuación, un ejemplo de cómo se podría representar en Racket:
