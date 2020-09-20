@@ -22,7 +22,17 @@ El poder de este tipo de descripciones consiste fundamentalmente en el hecho de 
 
 Por ejemplo, una operación como elevar a una potencia a un número es fácilmente interpretable como una función recursiva.
 
-$$2^5 = 2 \cdot (2^4) \newline 2^5 = 2 \cdot (2 \cdot (2^3)) \newline 2^5 = 2 \cdot (2 \cdot (2 \cdot (2^2))) \newline 2^5 = 2 \cdot (2 \cdot (2 \cdot (2 \cdot (2^1)))) \newline 2^5 = 2 \cdot (2 \cdot (2 \cdot (2 \cdot (2 \cdot (2^0))))) \newline 2^5 = 2 \cdot (2 \cdot (2 \cdot (2 \cdot (2 \cdot (1))))) \newline 2^5 = 2 \cdot (2 \cdot (2 \cdot (2 \cdot (2 )))) \newline 2^5 = 2 \cdot (2 \cdot (2 \cdot ( 4 ))) \newline 2^5 = 2 \cdot (2 \cdot (8)) \newline 2^5 = 2 \cdot (16) \newline 2^5 = 32$$
+$$2^5 = 2 \cdot (2^4) \\\
+2^5 = 2 \cdot (2 \cdot (2^3)) \\\
+2^5 = 2 \cdot (2 \cdot (2 \cdot (2^2))) \\\
+2^5 = 2 \cdot (2 \cdot (2 \cdot (2 \cdot (2^1)))) \\\
+2^5 = 2 \cdot (2 \cdot (2 \cdot (2 \cdot (2 \cdot (2^0))))) \\\
+2^5 = 2 \cdot (2 \cdot (2 \cdot (2 \cdot (2 \cdot (1)))))\\\
+2^5 = 2 \cdot (2 \cdot (2 \cdot (2 \cdot (2 ))))  \\\
+2^5 = 2 \cdot (2 \cdot (2 \cdot ( 4 )))  \\\
+2^5 = 2 \cdot (2 \cdot (8))  \\\
+2^5 = 2 \cdot (16)  \\\
+2^5 = 32 $$
 
 En la representación anterior se muestra muy bien cómo la recursividad de pila hace su trabajo al llamarse a sí misma hasta que encuentra un caso base (exponente 0). Después, sólo retorna el resultado en cada llamada.
 
