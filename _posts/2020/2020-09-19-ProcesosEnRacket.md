@@ -1,4 +1,10 @@
-﻿# Procesos en Racket
+﻿---
+layout: article
+title: Procesos en Racket.
+date: 2020-09-19 15:33:00+0200
+coverPhoto: https://superawesomevectors.com/wp-content/uploads/2017/07/abacus-free-flat-vector-icon-800x566.jpg
+---
+
 En el presente artículo se presenta cómo es posible por medio de Scheme escribir procesos que realicen computaciones numéricas. **En especial fórmulas recursivas**, algoritmos que se definen en términos de sí mismos.
 
 Ahora, unas notas previas:
@@ -78,4 +84,4 @@ Claro que no todo es amor, por la manera en que está definida la función `suma
 -----
 **Referencia:** *Introducción a la programación con Scheme por José E. Helo Guzmán.*
 
-
+![Mountastic  footer](https://user-images.githubusercontent.com/38998436/87217793-5fa59d80-c30a-11ea-94e7-81be3d541319.png)
