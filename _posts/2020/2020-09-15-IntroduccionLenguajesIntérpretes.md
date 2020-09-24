@@ -5,6 +5,8 @@ date: 2020-09-15
 author: Tomás Segura
 coverPhoto: https://pbs.twimg.com/profile_images/1011277014924496897/aTMLLVVZ_400x400.jpg
 ---
+
+
 Los lenguajes de programación formales se comenzaron a diseñar a partir de los años 50. Su estudio tiene como objetivo **diseñar lenguajes que combinen poder expresivo con simplicidad y eficiencia.**
 
 Al incio de su desarrollo se desconocía si una traducción automática entre un lenguaje orientado a usuarios y un lenguaje máquina era factible. A partir de ese entonces muchos lenguajes han surgido combinando conceptos de lenguajes anteriores con nuevos enfoques.
@@ -125,7 +127,7 @@ Uso de principios lógicos para hacer deducciones que resuelven problemas. Se ca
 - Lenguaje clásico de programación lógica.
 - En su forma pura, es muy eficiente por lo que ha sido ampliado con características no lógicas para hacerlo más útil.
 
----
+--------
 *Referencia:* Material de clase del profesor Ing. Marco Rivera Meneses.
 
 ![InfogramaSobreLaHistoriaDeLosLenguajes](https://www.pcs.udel.edu/wp-content/uploads/2019/08/201908-HistoryComputerProg-infographic-TSG-UDEL.jpg)
