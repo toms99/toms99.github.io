@@ -128,7 +128,7 @@ Uso de principios lógicos para hacer deducciones que resuelven problemas. Se ca
 - En su forma pura, es muy eficiente por lo que ha sido ampliado con características no lógicas para hacerlo más útil.
 
 --------
-*Referencia:* Material de clase del profesor Ing. Marco Rivera Meneses.
+**Referencia:** *Material de clase del profesor Ing. Marco Rivera Meneses.*
 
 ![InfogramaSobreLaHistoriaDeLosLenguajes](https://www.pcs.udel.edu/wp-content/uploads/2019/08/201908-HistoryComputerProg-infographic-TSG-UDEL.jpg)
 
