@@ -5,7 +5,6 @@ date: 2020-09-15
 coverPhoto: https://pbs.twimg.com/profile_images/1011277014924496897/aTMLLVVZ_400x400.jpg
 ---
 
-
 Los lenguajes de programación formales se comenzaron a diseñar a partir de los años 50. Su estudio tiene como objetivo **diseñar lenguajes que combinen poder expresivo con simplicidad y eficiencia.**
 
 Al incio de su desarrollo se desconocía si una traducción automática entre un lenguaje orientado a usuarios y un lenguaje máquina era factible. A partir de ese entonces muchos lenguajes han surgido combinando conceptos de lenguajes anteriores con nuevos enfoques.
