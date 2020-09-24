@@ -2,6 +2,7 @@
 layout: article
 title: Lenguajes y paradigmas de programación.
 date: 2020-09-15 15:33:00+0200
+author: Tomás Segura
 coverPhoto: https://pbs.twimg.com/profile_images/1011277014924496897/aTMLLVVZ_400x400.jpg
 ---
 
