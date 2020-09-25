@@ -1,7 +1,7 @@
 ﻿﻿---
 layout: article
 title: Lenguajes y paradigmas de programación.
-date: 2020-09-15
+date: 2020-09-15 15:33:00+0200
 coverPhoto: https://pbs.twimg.com/profile_images/1011277014924496897/aTMLLVVZ_400x400.jpg
 ---
 
@@ -76,7 +76,7 @@ Uso de principios lógicos para hacer deducciones que resuelven problemas. Se ca
 
 ### Algol 60 (Algorithmic Language).
 - Fue creado en el año 1960 sucesor de Algol creado en 1958.
- - Primer lenguaje de programación diseñado para comunicarse por medio de algoritmos y no solo para programar una computadora.
+- Primer lenguaje de programación diseñado para comunicarse por medio de algoritmos y no solo para programar una computadora.
 - Introduce la estructura de bloques que permite declarar los elementos cuando el programa los necesita y no solo al inicio.
 - Ha tenido una gran influencia en muchos lenguajes: CPL, BCPL, Simula, Pascal.
 
@@ -125,7 +125,7 @@ Uso de principios lógicos para hacer deducciones que resuelven problemas. Se ca
 - Lenguaje clásico de programación lógica.
 - En su forma pura, es muy eficiente por lo que ha sido ampliado con características no lógicas para hacerlo más útil.
 
---------
+------
 **Referencia:** *Material de clase del profesor Ing. Marco Rivera Meneses.*
 
 ![InfogramaSobreLaHistoriaDeLosLenguajes](https://www.pcs.udel.edu/wp-content/uploads/2019/08/201908-HistoryComputerProg-infographic-TSG-UDEL.jpg)
