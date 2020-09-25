@@ -1,6 +1,6 @@
 ﻿﻿﻿---
 layout: article
-title: Paradigma funcional.
+title: Paradigma funcional
 date: 2020-09-16 
 author: Tomás Segura
 coverPhoto: https://cdn.arstechnica.net/wp-content/uploads/2013/04/recursive-water.jpg
