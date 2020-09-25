@@ -1,10 +1,10 @@
-﻿﻿﻿---
+---
 layout: article
 title: Paradigma funcional
-date: 2020-09-16 
-author: Tomás Segura
+date: 2020-09-16 15:33:00+0200
 coverPhoto: https://cdn.arstechnica.net/wp-content/uploads/2013/04/recursive-water.jpg
 ---
+
 La esencia de la programación funcional consiste en la combinación de funciones para producir funciones aún más poderosas.
 
 **Función:** asociación que toma cada elemento de un conjunto (dominio) y le asigna un elemento de otro dominio (Rango).
