@@ -40,7 +40,7 @@ Conservan el carácter estricto del sistema de tipos y por otro liberan al progr
 
 #### Emparejamiento de patrones.
 Se refiere a la posibilidad que brindan algunos lenguajes funcionales de definir funciones por casos; esto le da mayor capacidad expresiva al lenguaje permitiendo escribir el código más claro, sencillo y conciso.
-```
+```python
 Fib(0) = 1
 Fib(1) = 1
 Fib(x) = Fib (X-1) + Fib (X-2)
@@ -53,7 +53,7 @@ Los lenguajes funcionales tienen cinco componentes.
 3. La operación de aplicar una función a sus argumentos y producir un valor.
 4. Un conjunto de objetos primitivos.
 5. Un mecanismo para ligar un nombre con una nueva función.
-	- Esto es necesario para definir funciones recursivas.
+ - Esto es necesario para definir funciones recursivas.
 
 ### Lenguaje FP
 Es un lenguaje funcional, simple y puro. Creado por John Backus a principios de los 70s. No tiene variables, todos los datos deben de ser usados literalmente.
@@ -85,7 +85,7 @@ Es un dialecto de Lisp. Fue desarrollado por Guy L Steele y Gerald Jay Sussman e
 - Posee una base matemática sólida, el cálculo lambda. De esta forma, las pruebas de correctitud de programas son mucho mas fáciles.
 - Usualmente los programas escritos en este lenguaje son muchos más cortos, lo cual permiten un mayor nivel de perfeccionamiento y mantenimiento.
 
----
+------
 *Referencia:* Material de clase del profesor Ing. Marco Rivera Meneses.
 
 ![Mountastic  footer](https://user-images.githubusercontent.com/38998436/87217793-5fa59d80-c30a-11ea-94e7-81be3d541319.png)
